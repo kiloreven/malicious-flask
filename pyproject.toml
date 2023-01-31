@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "malicious-flask"
+version = "0.1.0"
+description = ""
+authors = ["Karl Fredrik Haugland <karlfredrik.haugland@oda.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^2.2.2"
+useless_package = { git = "https://github.com/kiloreven/useless_package.git", rev = "f7f0ea" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
